@@ -5,8 +5,8 @@ public class Day45 {
         f = 50;
         s = 25;
         
-        System.out.println(f==s && s==f);
-        System.out.println(f/=s && s/=f);
+        System.out.println(f>s && s<f);
+        System.out.println(f<s && s>f);
      
     }
 }
